@@ -12,5 +12,3 @@ X and O get seperate network weights.  The network judges the "value" of any boa
 TicTacToe2Layer uses a two layer neural network.
 
 TicTacToeEvolve uses an evolutionary algorithm to train the neural network. Currently not working.
-
-Test
