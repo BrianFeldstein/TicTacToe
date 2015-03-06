@@ -8,4 +8,5 @@ Learn is the main function to call, with an argument that is the number of games
 X and O get seperate network weights.  The network judges the "value" of any board position.  Each turn, the AI chooses the move which yields the highest value for the next position OR it moves completely randomly.  The probability of making a move randomly starts at 1, and decreases to 0 linearly with the number of games played.  Training occurs via the following principle: if the value of the state after moving is found to be  different than the value of the state before moving, then the value assigned to the previous state must have been in error.  The network weights are then adjusted slightly to change the value of the previous state towards the value of the subsequent state.  The value of a won board is always set to 1, a losing board to 0, and a drawn board to .5.
 
 TicTacToe2Layer uses a two layer neural network.
+
 TicTacToeEvolve uses an evolutionary algorithm to train the neural network. Currently not working.
